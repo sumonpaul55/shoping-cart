@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shoping-content{
+    background-color: rgb(227, 227, 227);
+}
+.mobile{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.quantitynumber{
+    width: 90px;
+    background-color: rgb(187, 187, 187);
+}
+.plusmainas{
+    cursor: pointer;
+    font-size: 2rem;
+}
