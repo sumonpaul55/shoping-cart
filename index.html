@@ -22,33 +22,61 @@
         <div class="container">
             <div class="shoping-content p-4">
                 <div class="product">
-                    <div class="product1 bg-white p-3 m-2 d-flex justify-content-between align-items-center">
-                        <div class="mobile">
-                            <img src="img/mobile1.jpg" class="img-fluid" alt="">
-                        </div>
-                        <h4 class="description me-5 pe-5"> iphone 11 128GB Black </h4>
-                        <div class="quantity d-flex align-items-center">
-                            <span class="plusmainas mx-2 mainas">-</span>
-                            <span class="quantitynumber rounded py-1 h4 d-flex align-items-center justify-content-center mt-3" id="quantityAmount">1</span>
-                            <span class="plusmainas mx-2 plus">+</span>
-                            <span class="text-capitalize fw-bold m-sm-4">$1245</span>
-                        </div>
-                    </div>
-                    <div class="product2 bg-white p-3 m-2 d-flex justify-content-between align-items-center">
-                        <div class="mobile">
-                            <img src="img/mobile1.jpg" class="img-fluid" alt="">
-                        </div>
-                        <h4 class="description me-5 pe-5"> iphone 11 128GB Black </h4>
-                        <div class="quantity d-flex align-items-center">
-                            <span class="plusmainas mx-2 mainas">-</span>
-                            <span class="quantitynumber rounded py-1 h4 d-flex align-items-center justify-content-center mt-3" id="quantityAmount">1</span>
-                            <span class="plusmainas mx-2 plus">+</span>
-                            <span class="text-capitalize fw-bold m-sm-4">$1245</span>
+                    <div id="product1">
+                        <div class="product1 bg-white p-3 m-2 d-flex justify-content-between align-items-center rounded">
+                            <div class=" d-flex align-items-center">
+                                <div class="mobile">
+                                    <img src="img/mobile1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h4 class="description ms-4"> iphone 11 128GB Black </h4>
+                            </div>
+                           
+                            <div class="quantity d-flex align-items-center">
+                                <span class="plusmainas mx-2 mainas" id="minas1">&ndash;</span>
+                                <span class="quantitynumber rounded py-1 h4 d-flex align-items-center justify-content-center mt-3" id="quantityAmount1">1</span>
+                                <span class="plusmainas mx-2 plus" id="plus1">&#43;</span>
+                                <div class="d-flex align-items-center">
+                                    <h5 class="text-capitalize fw-bold h4 fw-light m-sm-4">$<span id="pricephone">1200</span></h5>
+                                    <span class="cross text-danger display-5 mb-2 fw-bold" id="cross" onclick="hide()">&#215;</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                   <div id="prodict2">
+                    <div class="product2 bg-white p-3 m-2 d-flex justify-content-between align-items-center rounded">
+                        <div class=" d-flex align-items-center">
+                            <div class="mobile">
+                                <img src="img/mobile1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h4 class="description ms-4"> iphone 11 128GB Black </h4>
+                        </div>
+                       
+                        <div class="quantity d-flex align-items-center">
+                            <span class="plusmainas mx-2 mainas" id="minas2">&ndash;</span>
+                            <span class="quantitynumber rounded py-1 h4 d-flex align-items-center justify-content-center mt-3" id="quantityAmount2">1</span>
+                            <span class="plusmainas mx-2 plus" id="plus2">&#43;</span>
+                            <div class="d-flex align-items-center">
+                                <h5 class="text-capitalize fw-bold h4 fw-light m-sm-4">$<span id="coverprice">59</span></h5>
+                                <span class="cross text-danger display-5 mb-2 fw-bold" id="cross" onclick="hides()">&#215;</span>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
                 </div>
-                <div class="calculation">
-
+                <div class="calculation px-5 py-3 rounded m-2 bg-white">
+                    <div class="my-3 sub-total d-flex w-100 justify-content-between">
+                        <h5 class="text-capitalize fw-bold">subtotal</span>
+                        <h5 class="text-capitalize fw-bold">$<span id="sub-total">00</span></h5>
+                    </div>
+                    <div class="my-3 tax d-flex w-100 justify-content-between">
+                        <h5 class="text-capitalize fw-bold">tax</span>
+                        <h5 class="text-capitalize fw-bold">$<span id="tax">20</span></h5>
+                    </div>
+                    <hr>
+                    <div class="my-3 total d-flex w-100 justify-content-between">
+                        <h5 class="text-capitalize fw-bold">Total</span>
+                        <h5 class="text-capitalize fw-bold">$<span id="total">00</span></h5>
+                    </div>
                 </div>
             </div>
         </div>

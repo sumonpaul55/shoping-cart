@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.shoping-content{
-    background-color: rgb(227, 227, 227);
+.shoping-content,.calculation{
+    background-color: #6144c0;
 }
 .mobile{
     max-width: 100px;
@@ -18,4 +18,7 @@
 .plusmainas{
     cursor: pointer;
     font-size: 2rem;
+}
+.cross{
+    cursor: pointer;
 }
